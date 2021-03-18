@@ -8,7 +8,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 if above does not work, Run `npm run start`
 
-## Validations
+## MUST READ!!!!!!!!
+
+App is built via HTML,SCSS,Angular. No front end libary is used for styling. 
 
 After running the app, you must enter the item name and quanity, none can be empty. 
 
