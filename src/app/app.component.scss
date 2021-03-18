@@ -1,0 +1,26 @@
+.restaurant-header {
+  width: 100%;
+  background: #336b87;
+  height: 50px;
+  display: flex;
+  font-family: cursive;
+  div:hover {
+    background-color: #ddd;
+  }
+  .text {
+    color: #90afc5;
+    padding-top: 10px;
+    font-weight: 900;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  & .text.left {
+    color: #90afc5;
+    padding-top: 10px;
+    font-weight: 900;
+    font-size: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+  }
+}

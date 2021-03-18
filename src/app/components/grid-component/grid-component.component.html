@@ -1,0 +1,52 @@
+<div class="grid-component">
+  <form (submit)="addItem()" class="form-item">
+    <!-- <input
+      type="number"
+      name="itemId"
+      placeholder="Enter todo..."
+      [(ngModel)]="itemId"
+    /> -->
+    <!-- <input
+      type="number"
+      name="price"
+      placeholder="Enter todo..."
+      [(ngModel)]="price"
+    /> -->
+    <label for="name" class="item-name">Item Name</label>
+    <input
+      type="text"
+      name="name"
+      placeholder="Enter Item Name..."
+      class="item-name-input"
+      required
+      [(ngModel)]="name"
+    />
+    <label for="name" class="item-quantity">Quantity</label>
+    <input
+      type="number"
+      name="quantity"
+      placeholder="Enter todo..."
+      class="item-quantity-input"
+      [(ngModel)]="quantity"
+    />
+    <input type="submit" value="Add Item" class="grid-submit" />
+  </form>
+  <div>
+    <table id="orders">
+      <tr>
+        <th>S.No</th>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+      <tbody class="table-data" *ngFor="let item of items; let i = index">
+        <tr>
+          <td>{{ item.itemId }}</td>
+          <td>{{ item.name }}</td>
+          <td>{{ item.price }}</td>
+          <td>{{ item.quantity }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

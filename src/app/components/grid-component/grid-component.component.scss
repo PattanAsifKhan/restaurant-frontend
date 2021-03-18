@@ -1,0 +1,87 @@
+.grid-component {
+  padding-top: 50px;
+  padding-left: 50px;
+  .form-item {
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .item-name {
+    padding-right: 10px;
+    font-weight: bold;
+  }
+  .item-name-input {
+    margin-right: 50px;
+  }
+  .item-quantity {
+    padding-right: 10px;
+    font-weight: bold;
+  }
+}
+.grid-submit {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  background-color: #fe4880;
+  color: #fff;
+  margin: 30px 30px 30px 190px;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#orders {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#orders td,
+#orders th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#orders tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#orders tr:hover {
+  background-color: #ddd;
+}
+
+#orders th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+
+@media only screen and (max-width: 610px) {
+  .grid-component {
+    padding-top: 20px;
+    // padding-left: 50px;
+    .form-item {
+      padding-bottom: 50px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .item-name {
+      margin-left: 92px;
+      font-weight: bold;
+    }
+    .item-name-input {
+      margin-right: 100px;
+    }
+    .item-quantity {
+      margin-left: 105px;
+      padding-right: 10px;
+      font-weight: bold;
+    }
+  }
+}
