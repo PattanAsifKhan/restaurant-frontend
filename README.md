@@ -12,6 +12,8 @@ if above does not work, Run `npm run start`
 
 After running the app, you must enter the item name and quanity, none can be empty. 
 
+If you want me to do redux integration and have a page that shows all orders made in a seperate page please let me know. I would love to do that as well
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
