@@ -10,7 +10,7 @@ if above does not work, Run `npm run start`
 
 ## MUST READ!!!!!!!!
 
-App is built via HTML,SCSS,Angular. No front end libary is used for styling. 
+App is built via HTML,SCSS,Angular. No front end libary such as(bootstrap, tailwind) used for styling, styles are built only via scss. 
 
 After running the app, you must enter the item name and quanity, none can be empty. 
 
