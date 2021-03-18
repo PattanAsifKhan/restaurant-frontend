@@ -12,7 +12,9 @@ if above does not work, Run `npm run start`
 
 After running the app, you must enter the item name and quanity, none can be empty. 
 
-If you want me to do redux integration and have a page that shows all orders made in a seperate page please let me know. I would love to do that as well
+If you want me to do redux integration and have a page that shows all orders made in a seperate page please let me know. I would love to do that as well.
+
+App is responsive upto 500px resultion, css work in progress for mobile resultions.
 
 ## Code scaffolding
 
